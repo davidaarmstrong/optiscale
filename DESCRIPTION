@@ -3,8 +3,10 @@ Type: Package
 Title: Optimal Scaling
 Version: 1.2.3
 Date: 2024-05-15
-Author: William G. Jacoby
-Maintainer: William G. Jacoby <wm.g.jacoby@gmail.com>
+Authors@R: c(person("Dave", "Armstrong", email="davearmstrong.ps@gmail.com", 
+  role=c("aut", "cre")), 
+  person("William", "Jacoby", email="wm.g.jacoby@gmail.com", 
+  role=c("aut")))
 Description: Optimal scaling of a data vector, relative to a set of targets, is
     obtained through a least-squares transformation subject to appropriate measurement
     constraints. The targets are usually predicted values from a statistical
