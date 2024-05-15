@@ -494,7 +494,7 @@ sum))
 ###
 
     stress <- function (x, ...) {
-      if (!inherits(x, "optiscale"))
+      if (!inherits(x, "opscale"))
          stop("Object must be of class 'opscale'")
        cat("Stress Values for Variable:", x$varname, "\n\n")
        calc.stress(quant = x$quant,
@@ -506,7 +506,7 @@ sum))
 
 
    shepard <- function (x, ...) {
-      if (!inherits(x, "optiscale"))
+      if (!inherits(x, "opscale"))
          stop("Object must be of class 'opscale'")
       shep.plot(x$quant, x$os,
       main.title = paste("Shepard Diagram for Variable:", x$varname))
